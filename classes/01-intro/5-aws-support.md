@@ -1,61 +1,65 @@
-## AWS Support
+## AWS Support  
 
-A AWS disponibiliza alguns níveis de suporte
+AWS offers several levels of support:  
 
+* **Developer**  
+* **Business**  
+* **Enterprise On-Ramp**  
+* **Enterprise**  
 
-* Developer
-* Business
-* Enterprise On-Ramp
-* Enterprise
+You can find details for each support plan at the link below:  
+[https://aws.amazon.com/premiumsupport/plans/](https://aws.amazon.com/premiumsupport/plans/)  
 
-Os detalhes para cada um dos níveis pode ser consultado no link abaixo:
-https://aws.amazon.com/pt/premiumsupport/plans/
+There are exam questions related to AWS support plans.  
 
+---
 
-Existem questões na prova, relacionadas aos planos de suporte da AWS
+# Developer  
 
+* Response time of up to **24 hours**.  
+* Support follows **business hours**, typically based on the customer’s country.  
+* **Not available** on weekends or holidays.  
+* Provides **general guidance** support.  
+* Includes access to **AWS Trusted Advisor** for **service quota checks and basic security checks**.  
 
-# Developer
+**Recommended for individuals experimenting or testing AWS resources.**  
 
-* Tem retorno em até 24 horas
-* Segue o horário comercial, normalmente do país do cliente
-* Não disponíveis em finais de semana e feriado
-* Dá suporte a orientações gerais
-* Tem acesso ao AWS Trusted Advisor no nível de cotas de serviço e verificações básicas de segurança.
+---
 
-** É recomendado para pessoas que estão experimentando e ou testando os recursos.
+# Business  
 
-# Business
+* Same **24-hour** response time for general guidance.  
+* **12-hour** target for affected systems.  
+* **4-hour** response for production-impacted systems.  
+* **1-hour** response for production system downtime.  
+* Covers **use cases and operational support**.  
+* Full access to **AWS Trusted Advisor** checks.  
+* Access to AWS support engineers via **phone, web chat, or Slack (24/7)**.  
+* API access for AWS support.  
+* **Interoperability support, troubleshooting, and configuration guidance**.  
 
-* Tem o mesmo retorno de 24 horas para orientações gerais
-* Para sistemas afetados o target é de 12 horas
-* Para sistemas afetados em produção é 4 horas
-* Para sistemas em ambiente produtivo inativo, é de 1 hora.
-* Atende os casos de uso utilizados
-* Tem acesso ao AWS Trusted Advisor no nível completo de verificações.
-* Tem acesso ao suporte dos engenheiros por telefone, web e ou conversa e acesso ao slack ->  24 / 7.
-* Acesso a API do suporte
-* Suporte a interoperabilidade e solução de problemas e orientações de configuração
+**Recommended for those with production workloads.**  
 
-** É recomendado para quem já possui algum serviço produtivo
+---
 
-# Enterprise On-Ramp
+# Enterprise On-Ramp  
 
-* Além dos mesmos tempos do business tem prioridade de até 30 minutos para sistemas essensiais ao negócio do cliente.
-* Tem uma consulta anual para orientações de acordo com as aplicações
-* Possui análise de segurança proativa anual
-* Acesso a um gerente de conta
-* Suporte para problemas de faturamento
+* In addition to Business-level response times, **priority response within 30 minutes** for **business-critical** systems.  
+* **Annual consultation** for recommendations based on applications.  
+* **Annual proactive security analysis**.  
+* Access to a **dedicated account manager**.  
+* **Billing support** included.  
 
-** Suporte para empresas de médio/grande porte, se for BR só grande porte mesmo, pq a mensalidade passa dos $5k
+**Designed for medium-to-large enterprises. In Brazil, mainly for large companies, as the monthly fee exceeds $5,000.**  
 
-# Enterprise
+---
 
-* Além de todos os benefícios do níveis anteriores
-* Tem de resposta de até 15 minutos
-* Análise de consultores e orientações de acordo com as aplicações 
-* Um gerente técnico e de conta
-* Enfim... é o supra sumo do suporte da AWS
+# Enterprise  
 
-** Passa de $15k mês
+* Includes **all benefits** of previous support levels.  
+* **Response time as fast as 15 minutes**.  
+* **Consultant reviews and application-specific recommendations**.  
+* **Dedicated technical account manager (TAM) and account manager**.  
+* The **highest level of AWS support available**.  
 
+**Costs exceed $15,000 per month.**  

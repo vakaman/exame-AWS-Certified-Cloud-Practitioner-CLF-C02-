@@ -1,31 +1,29 @@
-## IAM -> Identity and Access Management
+## IAM → Identity and Access Management  
 
-Recurso responsável pelo gerenciamento de:
+IAM is responsible for managing:  
 
-* Usuários e ou grupos de usuários
-* Funções
-* Políticas
-
---- 
-
-#### Users 
-
-* Definições para o contexto de um único usuário
-
-#### Groups
-
-* Definições para um grupo de usuários
-
-#### Roles
-
-* Definições para serviços 
+* **Users** and/or **user groups**  
+* **Roles**  
+* **Policies**  
 
 ---
 
-### Reports 
+### Users  
 
-There is a resource to give you a report about IAM accounts, you can access follow the steps bellow
+* Definitions and permissions for an **individual user**.  
 
+### Groups  
 
-![alt text](img/credential-reports.png "Credential reports")
+* Definitions and permissions for a **group of users**.  
 
+### Roles  
+
+* Definitions and permissions for **AWS services**.  
+
+---
+
+### Reports  
+
+IAM provides a feature to generate reports on IAM accounts. You can access it by following the steps below:  
+
+![Credential Reports](img/credential-reports.png "Credential Reports")  

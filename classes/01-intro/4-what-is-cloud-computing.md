@@ -1,78 +1,75 @@
-## O que é cloud computing?
+## What is Cloud Computing?  
 
+### Before  
 
-### Antes
+* Before cloud services became common, companies had to manage all infrastructure complexities internally.  
+* Servers of various types were maintained in dedicated rooms.  
+* These rooms required cooling due to the number of active machines.  
+* A significant amount of energy consumption was expected to maintain the infrastructure.  
+* Complex and difficult to maintain.  
+* High costs, especially for vertical scaling.  
 
-* Antes de se tornar comum a disponibilização de serviços em núvem era muito comum que as empresas tivessem toda a complexidade dos serviços em sua infraestrutura
-* Servidores de diversos tipos eram mantidos em salas 
-* Essas salas precisavam de refrigeração, devido a quantidade de máquinas ativas. 
-* Um consumo de energia considerável era esperado devido a todas as necessidades envolvendo a estrutura.
-* Complexo e dificil de manter
-* Custo elevado quando o assunto é manter a escala vertical.
+### After  
 
-
-### Depois
-
-* Datacenters ao redor do mundo acabaram nascendo
-* Podemos escolher qual o mais proximo utilizar, e não precisamos nos preocupar com o recover em caso de falha.
-* Custos com energia, refrigeração, link e atualização de servidores, acabam sendo cobrados em forma de serviço
-* Fácil de escalar
-* Ampla gama de serviços 
-* Alta disponibilidade
-
+* Data centers emerged worldwide.  
+* We can choose the nearest data center without worrying about disaster recovery.  
+* Costs related to power, cooling, networking, and server upgrades are now charged as a service.  
+* Easy to scale.  
+* Wide range of services available.  
+* High availability.  
 
 ---
 
-### Vantagens
+### Advantages  
 
-* Baixo custo
-* Flexibilidade
-* Escala global
-* Agilidade
+* Low cost  
+* Flexibility  
+* Global scale  
+* Agility  
 
---- 
+---
 
-### Tipos de cloud
+### Types of Cloud  
 
-* IAAS -> ( Infraestructure as a service ) 
-    * Locação de infraestrutura 
-        * Servidores
-        * VM
-        * Storage
-    * Estes recursos são focados em locação de recurso computacional, e não envolvem configuração,
-    * Basicamente é a tercerização de recursos de hadware.
-* PAAS ( Plataform as a service )
-    * Locação de recursos de plataforma
-        * Banco de dados
-        * Hospedagem de sites 
-        * Máquina já com S.O
-* SAAS ( Software as a service)
-    * Locação de licença de uso de aplicação
-        * Email
-        * Dropbox 
-        * Drive
+* **IaaS (Infrastructure as a Service)**  
+    * Infrastructure leasing:  
+        * Servers  
+        * Virtual Machines (VMs)  
+        * Storage  
+    * These resources focus on computational infrastructure leasing and do not include configuration.  
+    * Essentially, it is the outsourcing of hardware resources.  
 
+* **PaaS (Platform as a Service)**  
+    * Leasing of platform resources:  
+        * Databases  
+        * Website hosting  
+        * Pre-configured operating system environments  
 
-## Implementações
+* **SaaS (Software as a Service)**  
+    * Leasing of software application licenses:  
+        * Email services  
+        * Dropbox  
+        * Google Drive  
 
-### Nuvem pública
+## Implementations  
 
-Recursos de hardware compartilhado. Imagine um cluster de servidores onde diversos clientes consomer o recurso sob demanda ou com limite específicado. 
-A cloud se responsabiliza pela segurança e garante que um cliente não irá ter acesso aos recursos dos outros clientes, mesmo compartilhando o mesmo hardware. 
+### Public Cloud  
 
-* Aws
-* Azure
-* GCP
+Shared hardware resources. Imagine a cluster of servers where multiple customers consume resources on demand or with a specified limit.  
+The cloud provider is responsible for security, ensuring that customers cannot access each other's resources, even if they share the same hardware.  
 
-### Nuvem privada
+* AWS  
+* Azure  
+* GCP  
 
-Recurso de hardware dedicado, mesmo estando em nuvem é possível contratar um serviço onde o recurso do hardware é 100% dedicado, normalmente grandes instituições utilizam este tipo de abordagem.
+### Private Cloud  
 
-* Bancos
-* Governos
-* Financeiras
+Dedicated hardware resources. Even in a cloud environment, it is possible to contract services where hardware resources are 100% dedicated. Large institutions often adopt this approach.  
 
-### Nuvem hibrida
+* Banks  
+* Governments  
+* Financial institutions  
 
-Parte dos recursos podem fazer parte de um hardware compartilhado e parte pública. 
+### Hybrid Cloud  
 
+A combination of shared and dedicated hardware resources. Some resources remain on shared infrastructure, while others are kept private.  

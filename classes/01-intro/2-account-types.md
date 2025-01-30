@@ -1,20 +1,20 @@
-## Tipos de conta
+## Account Types  
 
-* Pessoal 
-    * Mais utilizado para estudo e ou pequenos projetos
-* Business
-    * Utilizado mais proximo do contexto real, onde uma conta para a empresa acaba gerenciando diversas contas.
+* **Personal**  
+    * Mostly used for learning and small projects.  
 
----
-
-### Criação de conta
-
-O processo é simples, e pode ser feito diretamente no site da AWS.
+* **Business**  
+    * Used in a more real-world context, where a company account manages multiple accounts.  
 
 ---
 
-### Free tier
+### Account Creation  
 
-* Recursos disponíveis para teste e sem cobrança pela utilização.
-* Alguns recursos possuem a opção free por tempo ou limite de consumo.
+The process is simple and can be done directly on the AWS website.  
 
+---
+
+### Free Tier  
+
+* Resources available for testing without charges.  
+* Some resources have a free option based on time limits or usage limits.  

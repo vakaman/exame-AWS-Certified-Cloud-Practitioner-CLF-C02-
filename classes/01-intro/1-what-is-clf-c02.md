@@ -1,26 +1,21 @@
-## O que é o Certified cloud practitioner?
+## What is the Certified Cloud Practitioner?  
 
-Certificação introdutória e de nível básico
+An introductory and entry-level certification.  
 
-Garante o que o usuário tem os conhecimentos necessários para utilizar os recursos 
-básicos da AWS.
+It ensures that the candidate has the necessary knowledge to use AWS's basic resources.  
 
-A prova dura 90 minutos e tem 65 questões de multiplas escolha e multiplas respostas.
+The exam lasts **90 minutes** and consists of **65 multiple-choice and multiple-response questions**.  
 
-Para garantir a certificação, você precisa ser capaz de pontuar acíma de 700 pontos, ou seja, preciso acertar mais do que
-70 % da prova.
-
+To pass the certification, you need to score **above 700 points**, meaning you must correctly answer more than **70% of the exam**.  
 
 ---
 
-### Domínios
+### Domains  
 
-|Domínio                                      | % do exame    |
-|---------------------------------------------|---------------|
-| Domínio 1: Conceitos de nuvem               | 24%           |
-| Domínio 2: Segurança e conformidade         | 30%           |
-| Domínio 3: Tecnologia e serviços da nuvem   | 34%           |          
-| Domínio 4: Cobrança, preços e suporte       | 12%           |
-| Total                                       | 100%          |
-
-
+| Domain                                      | % of the Exam  |  
+|---------------------------------------------|---------------|  
+| **Domain 1: Cloud Concepts**                | 24%           |  
+| **Domain 2: Security and Compliance**       | 30%           |  
+| **Domain 3: Cloud Technology and Services** | 34%           |  
+| **Domain 4: Billing, Pricing, and Support** | 12%           |  
+| **Total**                                   | **100%**      |  

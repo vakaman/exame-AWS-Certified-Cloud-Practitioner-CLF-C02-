@@ -1,27 +1,24 @@
-## Alerta de custo
+## Cost Alert  
 
-* Podemos criar um alerta para que, caso algum recurso exceda um valor x, a aws notifica por e-mail, evitando gasto desnecessário, principalmente por esquecimento.
-* O CloudWatch consegue monitorar o custo através do Billing.
+* You can create an alert so that if a resource exceeds a certain amount, AWS notifies you via email, preventing unnecessary expenses, especially due to forgetfulness.  
+* CloudWatch can monitor costs through the Billing service.  
 
+---
 
-### Ativando o Billing para o cloudWatch
+### Enabling Billing for CloudWatch  
 
-* Menu
-    * Conta
-        * Preferências de faturamento
-        * Preferências de alerta
-            *   Alertas de faturamento do CloudWatch -> (Precisa estar Ativado)
+* **Menu**  
+    * **Account**  
+        * **Billing Preferences**  
+        * **Alert Preferences**  
+            * **CloudWatch Billing Alerts** → (Must be Enabled)  
 
-
-* CloudWatch 
-    * Todos os alarmes
-        * Criar alarme
-        * Seleciona as métricas
-        * Neste caso vamos utilizar o faturamento total da conta
-        * Selecionamos a condição de interesse >= $10 por exemplo
-        * Configuramos o serviço de notificação para utilziar o SNS
-        * Criamos um tópico SNS com o destino ao seu e-mail
-        * Confirmamos a assinatura do seu e-mail no tópico de notificação.
-
-
-
+* **CloudWatch**  
+    * **All Alarms**  
+        * **Create Alarm**  
+        * Select **Metrics**  
+        * In this case, we will use **Total Account Billing**  
+        * Set the condition of interest, e.g., **>= $10**  
+        * Configure the notification service to use **SNS**  
+        * Create an **SNS Topic** with your email as the destination  
+        * Confirm your **email subscription** to the notification topic  
